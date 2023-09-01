@@ -2,9 +2,10 @@ import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 import {
   FaLinkedinIn,
-  FaTwitter,
   FaInstagram,
   FaTelegram,
+  FaGithub,
+  FaSlack,
 } from 'react-icons/fa'
 
 const Main = () => {
@@ -32,10 +33,11 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-center pt-6 max-w-[200px] mx-auto">
-            <FaLinkedinIn className="cursor-pointer p-2" size={60} />
-            <FaInstagram className="cursor-pointer p-2" size={60} />
-            <FaTwitter className="cursor-pointer p-2" size={60} />
-            <FaTelegram className="cursor-pointer p-2" size={60} />
+            <FaGithub className="cursor-pointer p-2" size={50} />
+            <FaLinkedinIn className="cursor-pointer p-2" size={50} />
+            <FaInstagram className="cursor-pointer p-2" size={50} />
+            <FaTelegram className="cursor-pointer p-2" size={50} />
+            <FaSlack className="cursor-pointer p-2" size={50} />
           </div>
         </div>
       </div>
