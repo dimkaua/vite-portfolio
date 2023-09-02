@@ -1,6 +1,7 @@
 import React from 'react'
 import ProjectItem from './ProjectItem'
 import pnrmImg from '../assets/pnrm.png'
+import portfolioImg from '../assets/portfolio.png'
 
 const Projects = () => {
   return (
@@ -9,15 +10,11 @@ const Projects = () => {
         Projects
       </h1>
       <p className="text-center py-8">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum
-        deserunt debitis repellat ex labore consectetur error rerum, molestiae
-        corrupti illum unde quo, dolorem quos, enim non iure. Doloremque, ullam
-        illum!
+        Here are a few of my projects that I worked on as a frontend developer
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem img={pnrmImg} title="PNRM Ukraine App" />
-        {/* <ProjectItem/>
-        <ProjectItem/> */}
+        <ProjectItem img={portfolioImg} title="Portfolio App" />
       </div>
     </div>
   )

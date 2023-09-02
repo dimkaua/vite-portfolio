@@ -7,21 +7,21 @@ const data = [
     title: 'IT Company 2GIS',
     duration: '5 Years',
     details:
-      'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ',
+      'In this company, I held the position of Advertising Sales Manager',
   },
   {
     year: 2020,
     title: 'Business',
     duration: '3 Years',
     details:
-      'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ',
+      'During this period, two business directions were established from scratch: 1) Home decor store - products were sold both online and in a brick-and-mortar store. 2) Store for touch sensors and pneumatic components - products are exclusively sold online.',
   },
   {
     year: 2022,
     title: 'Freelance, Front-End developer',
     duration: '1 Years',
     details:
-      'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ',
+      'Developed applications from scratch or partially, using the following technologies: HTML, CSS, SCSS, JavaScript, React',
   },
 ]
 const Work = () => {
