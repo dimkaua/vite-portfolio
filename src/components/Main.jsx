@@ -33,11 +33,46 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-center pt-6 max-w-[200px] mx-auto">
-            <FaGithub className="cursor-pointer p-2" size={50} />
-            <FaLinkedinIn className="cursor-pointer p-2" size={50} />
-            <FaInstagram className="cursor-pointer p-2" size={50} />
-            <FaTelegram className="cursor-pointer p-2" size={50} />
-            <FaSlack className="cursor-pointer p-2" size={50} />
+            <a
+              href="https://www.linkedin.com/in/dmytro-gorobets-15646911b/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2"
+            >
+              <FaLinkedinIn className="cursor-pointer" size={40} />
+            </a>
+            <a
+              href="https://www.instagram.com/dimanex/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2"
+            >
+              <FaInstagram className="cursor-pointer" size={40} />
+            </a>
+            <a
+              href="https://t.me/dimanex1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2"
+            >
+              <FaTelegram className="cursor-pointer" size={40} />
+            </a>
+            <a
+              href="https://github.com/dimkaua?tab=repositories"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2"
+            >
+              <FaGithub className="cursor-pointer" size={40} />
+            </a>
+            <a
+              href="https://gorobetsdmytro.slack.com/archives/D0231P02DLG"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2"
+            >
+              <FaSlack className="cursor-pointer" size={40} />
+            </a>
           </div>
         </div>
       </div>
